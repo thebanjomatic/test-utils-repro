@@ -1,6 +1,2 @@
 node_modules
-
-.yarn/*
-!.yarn/releases
-!.yarn/patches
-!.yarn/plugins
+dist

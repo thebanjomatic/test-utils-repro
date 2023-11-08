@@ -1,0 +1,20 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Can mount 1`] = `
+<div>
+  <div>
+    
+    <div>
+      header
+    </div>
+    
+  </div>
+  <div>
+    
+    <div>
+      body
+    </div>
+    
+  </div>
+</div>
+`;

@@ -1,0 +1,11 @@
+{
+  "name": "npm-monorepo-root",
+  "private": true,
+  "workspaces": ["packages/**"],
+  "resolutions": {
+    "vite": "^4.5.0"
+  },
+  "scripts": {
+    "test": "cd packages/a && npm run test && cd ../b && npm run test"
+  }
+}

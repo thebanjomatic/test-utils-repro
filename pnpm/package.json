@@ -1,0 +1,11 @@
+{
+  "name": "pnpm-monorepo-root",
+  "private": true,
+  "workspaces": ["packages/**"],
+  "resolutions": {
+    "vite": "^4.5.0"
+  },
+  "scripts": {
+    "test": "cd packages/a && pnpm run test && cd ../b && pnpm run test"
+  }
+}
